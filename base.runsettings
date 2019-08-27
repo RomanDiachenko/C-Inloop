@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--All available options: https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md-->
+<RunSettings>
+  <TestRunParameters>
+    <Parameter name="BaseUrl" value="https://athletictrainers.inloop.com" />
+    <Parameter name="tag_list4" value="//ul[@class='tag-list clearfix ng-scope']//a[@class='ng-binding'][contains(text(),'NATA')]" />
+    <Parameter name="tag_list3" value="//ul[@class='tag-list clearfix ng-scope']//a[@class='ng-binding'][contains(text(),'Injuries')]" />
+    <Parameter name="tag_list2" value="//ul[@class='tag-list clearfix ng-scope']//a[@class='ng-binding'][contains(text(),'Head Athletic Trainers')]" />
+    <Parameter name="tag_list1" value="//li[@class='ng-scope']//a[@class='ng-binding'][contains(text(),'Concussions')]" />
+    <Parameter name="tag_list5" value="//ul[@class='tag-list clearfix ng-scope']//a[@class='ng-binding'][contains(text(),'Pain Relief')]" />
+    <Parameter name="tag_list6" value="//a[contains(text(),'Range Of Motion')]" />
+    <Parameter name="tag_list7" value="//a[contains(text(),'Rehabilitation')]" />
+    <Parameter name="tag_list8" value="//a[contains(text(),'Strength Training')]" />
+  </TestRunParameters>
+</RunSettings>
+
